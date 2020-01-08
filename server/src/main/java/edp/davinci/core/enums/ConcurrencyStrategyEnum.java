@@ -24,6 +24,7 @@ public enum ConcurrencyStrategyEnum {
     DIRTY_READ(0),
     FAIL_FAST(1);
 
+    @Getter
     private int strategy;
 
     ConcurrencyStrategyEnum(int strategy) {
