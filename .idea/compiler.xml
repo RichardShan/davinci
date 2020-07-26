@@ -7,9 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="davinci-commons" />
+        <module name="davinci-manager" />
         <module name="davinci-server" />
         <module name="davinci-auth" />
-        <module name="davinci-manager" />
         <module name="davinci-data" />
         <module name="server" />
         <module name="davinci-core" />
@@ -29,12 +29,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="davinci-auth" options="-parameters -bootclasspath /Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/../lib/tools.jar -Xlint:all,-serial,-path -XDignore.symbol.file" />
-      <module name="davinci-commons" options="-parameters -bootclasspath /Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/../lib/tools.jar -Xlint:all,-serial,-path -XDignore.symbol.file" />
-      <module name="davinci-core" options="-parameters -bootclasspath /Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/../lib/tools.jar -Xlint:all,-serial,-path -XDignore.symbol.file" />
-      <module name="davinci-data" options="-parameters -bootclasspath /Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/../lib/tools.jar -Xlint:all,-serial,-path -XDignore.symbol.file" />
-      <module name="davinci-manager" options="-parameters -bootclasspath /Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/../lib/tools.jar -Xlint:all,-serial,-path -XDignore.symbol.file" />
-      <module name="davinci-server" options="-parameters -bootclasspath /Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/../lib/tools.jar -Xlint:all,-serial,-path -XDignore.symbol.file" />
+      <module name="davinci-auth" options="-parameters -bootclasspath /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/../lib/tools.jar -Xlint:all,-serial,-path -XDignore.symbol.file" />
+      <module name="davinci-commons" options="-parameters -bootclasspath /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/../lib/tools.jar -Xlint:all,-serial,-path -XDignore.symbol.file" />
+      <module name="davinci-core" options="-parameters -bootclasspath /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/../lib/tools.jar -Xlint:all,-serial,-path -XDignore.symbol.file" />
+      <module name="davinci-data" options="-parameters -bootclasspath /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/../lib/tools.jar -Xlint:all,-serial,-path -XDignore.symbol.file" />
+      <module name="davinci-manager" options="-parameters -bootclasspath /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/../lib/tools.jar -Xlint:all,-serial,-path -XDignore.symbol.file" />
+      <module name="davinci-server" options="-parameters -bootclasspath /Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/rt.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/lib/jce.jar:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/../lib/tools.jar -Xlint:all,-serial,-path -XDignore.symbol.file" />
       <module name="server" options="-parameters -bootclasspath /Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home/../lib/tools.jar -Xlint:all,-serial,-path -XDignore.symbol.file" />
     </option>
   </component>

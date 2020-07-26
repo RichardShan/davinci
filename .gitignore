@@ -6,3 +6,9 @@
 /.vscode/
 /.history/
 /.idea/
+/.idea/*
+*.iml
+$DAVINCI_HOME
+*.log
+*.bak
+/config/*.yml
